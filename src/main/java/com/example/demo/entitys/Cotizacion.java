@@ -20,10 +20,6 @@ public class Cotizacion {
 	private Date fecha;
 	@Column
 	private double total;
-	@Column
-	private int idproducto;
-	@Column
-	private int idadministrador;
 	
 	public Cotizacion() {
 		super();
@@ -48,18 +44,4 @@ public class Cotizacion {
 	public void setTotal(double total) {
 		this.total = total;
 	}
-	public int getIdproducto() {
-		return idproducto;
-	}
-	public void setIdproducto(int idproducto) {
-		this.idproducto = idproducto;
-	}
-	public int getIdadministrador() {
-		return idadministrador;
-	}
-	public void setIdadministrador(int idadministrador) {
-		this.idadministrador = idadministrador;
-	}
-	
-	
 }

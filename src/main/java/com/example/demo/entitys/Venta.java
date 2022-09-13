@@ -23,8 +23,6 @@ public class Venta {
 	private String detalle;
 	@Column 
 	private double total;
-	@Column 
-	private int idproducto;
 	public Venta() {
 		super();
 	}
@@ -58,11 +56,4 @@ public class Venta {
 	public void setTotal(double total) {
 		this.total = total;
 	}
-	public int getIdproducto() {
-		return idproducto;
-	}
-	public void setIdproducto(int idproducto) {
-		this.idproducto = idproducto;
-	}
-	
 }

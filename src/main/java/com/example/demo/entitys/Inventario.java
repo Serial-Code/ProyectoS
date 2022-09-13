@@ -22,8 +22,6 @@ public class Inventario {
 	private int salidas;
 	@Column
 	private String descripcion;
-	@Column
-	private int idproducto;
 	public Inventario() {
 		super();
 	}
@@ -57,11 +55,4 @@ public class Inventario {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-	public int getIdproducto() {
-		return idproducto;
-	}
-	public void setIdproducto(int idproducto) {
-		this.idproducto = idproducto;
-	}
-	
 }

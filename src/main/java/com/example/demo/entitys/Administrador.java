@@ -16,10 +16,6 @@ public class Administrador {
 	private Integer idadministrador;
 	@Column
 	private String rut;
-	@Column
-	private int idusuario;
-	@Column
-	private int idinventario;
 	public Administrador() {
 		super();
 	
@@ -36,18 +32,4 @@ public class Administrador {
 	public void setRut(String rut) {
 		this.rut = rut;
 	}
-	public int getIdusuario() {
-		return idusuario;
-	}
-	public void setIdusuario(int idusuario) {
-		this.idusuario = idusuario;
-	}
-	public int getIdinventario() {
-		return idinventario;
-	}
-	public void setIdinventario(int idinventario) {
-		this.idinventario = idinventario;
-	}
-	
-	
 }
